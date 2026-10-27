@@ -1,0 +1,21 @@
+/* GEONET SOFT / DESPRE: se adauga DUPA CSS-ul V7 existent; izolat in .gn-about */
+.gn26.gn-about .about-grid{margin-top:22px}
+.gn26.gn-about .about-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:20px 0}
+.gn26.gn-about .about-step{position:relative;padding:17px 13px;border-radius:13px;border:1px solid #e4cdbd;background:#fffaf5;min-width:0}
+.gn26.gn-about .about-step strong{display:block;color:#533c2c;font-size:19px;line-height:1.3}
+.gn26.gn-about .about-step span{display:block;color:#574b42;font-size:16px;margin-top:9px;line-height:1.45}
+.gn26.gn-about .about-step small{display:inline-block;margin-top:12px;background:#e5eee0;color:#3e684e;border-radius:7px;padding:3px 8px;font-size:13px;font-weight:800}
+.gn26.gn-about .about-faq{display:grid;gap:11px;margin-top:18px}
+.gn26.gn-about .about-faq details{background:#fffaf1;border:1px solid #ded0b3;border-radius:12px;overflow:hidden}
+.gn26.gn-about .about-faq summary{cursor:pointer;list-style:none;padding:17px 19px;color:#44392e;font-size:19px;font-weight:800;line-height:1.4}
+.gn26.gn-about .about-faq summary::-webkit-details-marker{display:none}
+.gn26.gn-about .about-faq summary::marker{content:''}
+.gn26.gn-about .about-faq summary::before{content:'+';display:inline-grid;place-items:center;width:25px;height:25px;border-radius:7px;background:#e0eddd;color:#246343;margin-right:10px;font-weight:900}
+.gn26.gn-about .about-faq details[open] summary::before{content:'−'}
+.gn26.gn-about .about-faq summary span{display:block;margin:4px 0 0 36px;color:#696050;font-size:16px;font-weight:500}
+.gn26.gn-about .about-faq details[open] summary{background:#f0f5e9}
+.gn26.gn-about .about-answer{padding:16px 19px 20px;border-top:1px solid #ddd5bd;color:#4a4339;font-size:18px;line-height:1.58}
+.gn26.gn-about .about-linkline{margin-top:15px!important}
+.gn26.gn-about .about-linkline a{display:inline-block;color:#1c6454;font-weight:800;text-underline-offset:4px}
+@media(max-width:800px){.gn26.gn-about .about-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.gn26.gn-about .about-steps{grid-template-columns:1fr}.gn26.gn-about .about-faq summary{font-size:18px;padding:15px 13px}.gn26.gn-about .about-answer{padding:15px 14px;font-size:17px}}
