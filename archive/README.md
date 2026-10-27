@@ -18,3 +18,15 @@ Această zonă păstrează variante istorice, nu cod aprobat pentru producție.
 **Notă de import:** în octombrie 2026, conexiunea GitHub folosită din ChatGPT a permis fișiere text, dar nu transfer direct de arhive ZIP sau imagini binare. Pachetele cu status „de importat” necesită încărcare integrală prin GitHub web sau Git local. Mockup-ul integral nu a putut fi transferat fidel în această sesiune, iar copia incompletă a fost eliminată.
 
 **Nu se deduce o cronologie exactă din numele fișierelor.** Ordinea va fi documentată după revizuire.
+
+## Segregare: propunere artistică vs. versiune WordPress
+
+**Important (clarificare proprietar, 27.10.2026):** pachetele `geonetsoft-v7-artefact(2).zip` / `geonetsoft-v7-artefact(3).zip` și pagina V7 SEO transmisă sunt **artefacte / propuneri artistice de la ChatGPT**. Nu trebuie etichetate automat drept copie fidelă a CSS-ului ori a paginilor **instalate efectiv în WordPress**.
+
+Separăm explicit sursele:
+
+- **`archive/v7/` — propuneri și artefacte V7:** cod de proiect / referință istorică, inclusiv CSS-ul din pachetul artistic atunci când este importat.
+- **`archive/wp-live/` — instantanee WordPress:** rezervat exclusiv exporturilor preluate și identificate ca provenind din configurația WP efectivă; **nu presupunem că avem deja această copie**.
+- **`prototypes/chatgpt/v8/` — prototip V8:** lucru nou, nu imaginea site-ului actual și nu cod de producție.
+
+**Regulă:** niciun fișier din propunerile artistice nu primește eticheta „CSS WP live” fără confruntare cu CSS-ul real din WordPress. Păstrăm versiunile distincte și proveniența lor; nu suprascriem arhivele istorice.
