@@ -1,0 +1,64 @@
+# DRAFT ONLY — NU PUBLICA / NOT FOR DEPLOYMENT
+# Acest antet este metadată de arhivare; conținutul de mai jos este draftul original.
+
+# Geonet Soft
+
+> Servicii IT administrate pentru companii din România: e-mail profesional securizat, rețea, servere, backup, stații de lucru, securitate și suport tehnic. Date păstrate în UE. Baza în Timișoara, clienți în toată țara.
+
+Geonet Soft oferă un model de administrare IT complet externalizat — infrastructura este gestionată integral de furnizor, fără acces client la panoul de control, eliminând o întreagă clasă de vulnerabilități (CVE-uri de tip panou de control, configurări greșite de utilizator). Securitatea e-mailului este evaluată independent prin MECSA EU (scor 5/5 pentru domeniul orfescu.ro): SPF, DKIM, DMARC, DNSSEC, DANE, MTA-STS și TLS-RPT sunt implementate și verificabile public la https://mecsa.jrc.ec.europa.eu/en/roundtrip?reportid=ce815e6df219167fb20f31e283c09954
+
+## Servicii
+
+- **E-mail profesional administrat:** conturi cu securitate completă (SPF/DKIM/DMARC/DANE/MTA-STS), monitorizare continuă și asistență tehnică inclusă
+- **Rețea:** configurare routere, switch-uri, firewall, VPN, WiFi enterprise, Active Directory
+- **Servere și VPS administrate:** instalare, configurare, virtualizare (Hyper-V/VMware), administrare Linux inclusă
+- **Backup administrat:** strategii 3-2-1, copii incrementale locale (retenție 7 zile) și externe (retenție 30 zile), verificări de integritate și testare restaurare incluse
+- **Stații de lucru:** deployment Windows/macOS, patch management, suport utilizatori
+- **Securitate:** antivirus gestionat, MDM, politici de acces, audit
+- **Suport tehnic:** helpdesk remote, intervenție on-site, SLA, raportare lunară
+- **Servicii specializate:** Personal Cloud, VPN WireGuard, colocare, migrare, recuperare date HDD
+
+## Acoperire geografică
+
+Sediu în Timișoara. Clienți activi în toată România (București, Prahova, Timișoara și alte județe). Serviciile de administrare la distanță sunt disponibile oriunde în țară; intervențiile on-site se stabilesc individual.
+
+## Tarife
+
+- E-mail 10 GB: 10 €/lună
+- E-mail 15 GB: 15 €/lună
+- E-mail 20 GB: 20 €/lună
+- E-mail 20–30 GB: 35 €/lună
+- Server virtual administrat (100 GB): 50 €/lună
+- Asistență tehnică la distanță: de la 50 €/oră
+
+## Întrebări frecvente
+
+**Lucrați și în afara Timișoarei?**
+Da. Administrarea la distanță funcționează oriunde în România. Avem clienți în București, Prahova și alte județe. Intervențiile on-site se stabilesc de la caz la caz.
+
+**Ce înseamnă că nu există panou de control pentru client?**
+Clientul nu accesează direct cPanel, Plesk sau echivalente. Toate modificările se fac prin Geonet Soft. Avantajul: elimini configurările greșite și exploatarea de CVE-uri specifice panourilor de control — una dintre principalele cauze de compromitere a hosting-ului.
+
+**Cum pot verifica că emailul meu respectă cerințele NIS2/NIST?**
+Prin platforma publică MECSA a Comisiei Europene: https://mecsa.jrc.ec.europa.eu — introduci domeniul tău și obții un raport independent, verificabil de oricine, fără cont și fără costuri.
+
+**Faceți și recuperare de date de pe HDD defect?**
+Da, recuperare date HDD este un serviciu disponibil. Contactați-ne pentru evaluare.
+
+**Oferiți SLA?**
+Da, pentru serviciile de suport și administrare continuă. Detaliile se stabilesc în contractul de servicii.
+
+## Contact
+
+- Web: https://www.geonetsoft.ro
+- E-mail: office@geonetsoft.ro
+- Telefon: +40722648094
+
+## Pagini relevante
+
+- [Landing page](https://www.geonetsoft.ro/): atracție și filtrare, carduri MECSA interactive, tarife
+- [Despre](https://www.geonetsoft.ro/despre/): cine suntem, capabilități IT complete, dovezi tehnice MECSA
+- [Servicii](https://www.geonetsoft.ro/servicii/): portofoliu detaliat, toate categoriile IT administrat
+- [Contact / Ofertă](https://www.geonetsoft.ro/contact/): formular ofertă personalizată
+- [ANPC](https://www.geonetsoft.ro/anpc/): informații protecția consumatorului
+- [DSA](https://www.geonetsoft.ro/dsa/): Digital Services Act
