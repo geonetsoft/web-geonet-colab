@@ -1,0 +1,31 @@
+<!-- GEONET SOFT V8 | HOME v2 | R2.4 preserved | HTML only for WP content -->
+<div class="gn-v8 gn-home-v2"><a class="gn-skip" href="#gn-content">Sari la conținut</a><main id="gn-content"><section class="gn-hero gn-home-hero"><div class="gn-shell gn-home-layout"><div class="gn-home-message"><p class="gn-eyebrow">GEONET SOFT · INFRASTRUCTURĂ IT ADMINISTRATĂ</p><h1>Comunicarea ta merită <span>încredere.</span></h1><p class="gn-lead">E-mail profesional și infrastructură IT administrată. Identitate, transport sigur, protecție și continuitate — fără complicații inutile.</p><div class="gn-actions"><a class="gn-btn gn-btn-primary" href="/contact/">Solicită o evaluare ↗</a></div></div><div class="gn-orbit" aria-label="Explorează cele patru direcții de servicii"><div class="gn-orbit-rings" aria-hidden="true"><span class="gn-ring-a"></span><span class="gn-ring-b"></span><span class="gn-ring-c"></span></div><div class="gn-orbit-core" aria-hidden="true"><span>GS</span></div><details class="gn-orbit-item gn-orbit-id"><summary>IDENTITATE</summary><div class="gn-orbit-detail"><strong>Identitatea domeniului</strong><p>DNS, autentificarea e-mailului și reducerea riscului de falsificare.</p><a href="/servicii/">Vezi serviciile ↗</a></div></details><details class="gn-orbit-item gn-orbit-tr"><summary>TRANSPORT</summary><div class="gn-orbit-detail"><strong>Comunicații protejate</strong><p>Criptarea conexiunilor și politici pentru transportul e-mailului.</p><a href="/servicii/">Vezi serviciile ↗</a></div></details><details class="gn-orbit-item gn-orbit-pr"><summary>PROTECȚIE</summary><div class="gn-orbit-detail"><strong>Apărare și monitorizare</strong><p>Protecție web, filtre de securitate și supravegherea infrastructurii.</p><a href="/servicii/">Vezi serviciile ↗</a></div></details><details class="gn-orbit-item gn-orbit-ba"><summary>BACKUP</summary><div class="gn-orbit-detail"><strong>Recuperare și continuitate</strong><p>Copii de siguranță, verificare și posibilități de restaurare.</p><a href="/servicii/">Vezi serviciile ↗</a></div></details></div></div></section><section class="gn-section gn-home-proof" id="mecsa"><div class="gn-shell"><p class="gn-eyebrow">Încredere bazată pe verificări</p><div class="gn-section-intro"><h2>Securitate demonstrată, nu doar promisă.</h2><p>Rezultate independente pentru domeniul testat <strong>orfescu.ro</strong>. Detalii la o apăsare.</p></div><div class="gn-mecsa-grid"><details class="gn-score-card gn-native-mecsa"><summary><span class="gn-native-index">01 · MECSA</span><strong class="gn-native-score">5/5</strong><span class="gn-native-title">Confidențialitatea livrării</span><span class="gn-native-hint">Detalii +</span></summary><div class="gn-native-detail"><p>Conexiunile dintre serverele de e-mail pot fi protejate prin criptare, reducând riscul interceptării mesajelor în tranzit.</p><a class="gn-detail" href="/despre/#confidentialitate">Citește mai mult ↗</a></div></details><details class="gn-score-card gn-native-mecsa"><summary><span class="gn-native-index">02 · MECSA</span><strong class="gn-native-score">5/5</strong><span class="gn-native-title">Protecția identității</span><span class="gn-native-hint">Detalii +</span></summary><div class="gn-native-detail"><p>SPF, DKIM și DMARC contribuie la identificarea mesajelor neautorizate care pretind că provin de la domeniul firmei.</p><a class="gn-detail" href="/despre/#identitate">Citește mai mult ↗</a></div></details><details class="gn-score-card gn-native-mecsa"><summary><span class="gn-native-index">03 · MECSA</span><strong class="gn-native-score">5/5</strong><span class="gn-native-title">Integritatea mesajelor</span><span class="gn-native-hint">Detalii +</span></summary><div class="gn-native-detail"><p>Semnăturile și mecanismele de verificare pot evidenția modificări ale părților de mesaj protejate.</p><a class="gn-detail" href="/despre/#integritate">Citește mai mult ↗</a></div></details></div><div aria-label="Verificare raport MECSA" class="gn-proof"><div><label for="gn-report-id">Identificator raport MECSA pentru orfescu.ro</label><input autocomplete="off" id="gn-report-id" readonly="" spellcheck="false" type="text" value="ce815e6df219167fb20f31e283c09954"/><p class="gn-proof-help">Copiază codul, deschide MECSA, introdu-l la <strong>Find Your Report → Report Identifier</strong> și apasă <strong>Get Report</strong>.</p><p aria-live="polite" class="gn-copy-status" id="gn-copy-status" role="status"></p></div><div class="gn-proof-actions"><button class="gn-proof-copy" id="gn-copy-report" type="button">Copiază codul</button><a href="https://mecsa.jrc.ec.europa.eu/" rel="noopener noreferrer" target="_blank">Deschide MECSA ↗</a></div></div></div></section></main></div>
+
+<script>
+/* MECSA — copiere cod; varianta V7, fără dependențe. */
+(function () {
+  function init() {
+    var button = document.getElementById('gn-copy-report');
+    var field = document.getElementById('gn-report-id');
+    var status = document.getElementById('gn-copy-status');
+    if (!button || !field || !status || button.dataset.gnReady === '1') return;
+    button.dataset.gnReady = '1';
+    button.addEventListener('click', async function () {
+      var copied = false;
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(field.value);
+          copied = true;
+        }
+      } catch (e) {}
+      if (!copied) {
+        try { field.focus(); field.select(); copied = document.execCommand('copy'); }
+        catch (e) { copied = false; }
+      }
+      status.textContent = copied ? 'Cod copiat.' : 'Cod selectat. Copiază-l manual.';
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
